@@ -26,11 +26,13 @@ body{
     background-image: url('../img/bandeira-pirata.jpg');
     background-attachment: fixed;
     background-size: 1900px;
+    margin: 1px 0 0 0;
 }
-img{
+img.pirata{
     width: 100%;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
+    opacity: 0.5;
 }
 h2.tit{
     color: white;
