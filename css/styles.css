@@ -11,17 +11,16 @@ div.top{
     padding-top: 25px;
     padding-bottom: 25px;
     position: fixed;
+    text-align: center;
 }
 a.link{
     text-decoration: none;
-}
-h2.top{
     background-color: rgba(255, 0, 0, 0.5);
     border: double 5px white;
     font-size: 30px;
-    margin: 0 107px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 0 100px; 
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline;
     border-radius: 10px;
     color: white;
