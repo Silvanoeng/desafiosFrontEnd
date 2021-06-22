@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: black;
+    color: white;
+    z-index: 10;
+    padding-top: 25px;
+}
+img{
+    width: 50%;
+    margin: 0 400px;
+}
+
+    
