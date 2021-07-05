@@ -19,7 +19,7 @@ body {
   z-index: 2;
 }
 
-img {
+#form img {
   position: absolute;
   margin: -5px auto;
   z-index: -1;

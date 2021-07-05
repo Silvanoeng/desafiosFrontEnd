@@ -2,7 +2,7 @@
 .slide-form {
   animation-duration: 4s;
   animation-name: slidesc;
-}
+  }
 /* Tempo de duração e delay(tempo para iniciar), nome e animação constante. */
 .imgast {
   animation-duration: 20s;
