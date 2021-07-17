@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Houver -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Hover -->
     <link rel="stylesheet" href="./css/hover.css">
     <!-- Animações -->
-    <link rel="stylesheet" href="./css/animate.css">
+    <!-- <link rel="stylesheet" href="./css/animate.css"> -->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
     <!-- Favico -->
-    <link rel="shortcut icon" href="./img/favicon-32x32.png"> 
-    <!-- Titulo -->
-    <title>Estou em Marte</title>
+    <link rel="shortcut icon" href="../img/vinil.png"> 
+    <title>J²Rhapsody Login</title>
 </head>
-
 <body>
-    <!-- BOX -->
-    <form id="form" class="slide-form">
-        <h1>Venha Colonizar Marte</h1>
-        <!-- IMAGEM -->
-        <img class="imgast" src="./img/astro-removebg-preview.png">
+     <!-- BOX -->
+     <form id="form" class="slide-form">
+        <h1>Conecte-se</h1>
         <!-- NOME -->
         <div class="nome">
             <label for="nome">Nome:</label>
             <input class="caixa_dados" type="text" id="nome" name="nome" placeholder="Digite seu nome">
         </div>
-        <div>
+        <!-- <div>
             <label for="nome">Sobrenome:</label>
             <input class="caixa_dados" type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
-        </div>
+        </div> -->
         <!-- EMAIL -->
         <div>
             <label for="email">E-mail:</label>
@@ -46,12 +41,10 @@
             <label for="">Senha:</label>
             <input class="caixa_dados" type="password" id="senha" placeholder="**********">
         </div>
-        <!-- MAIORIDADE -->
-        <div class="maioridade">
-            <input type="checkbox" id="maioridade" name="maioridade" value="tem+18">
-            <a href="./site/index.html">
-            <label>Tenho mais de 18 anos.</label>
-        </a>
+        <!-- SENHA -->
+        <div class="salvarSenha">
+            <input type="checkbox" id="salvarSenha" name="salvarSenha" value="salvar">
+            <label>Salvar senha</label>
         </div>
         <!-- BOTÔES -->
         <div>
@@ -61,5 +54,4 @@
 
     </form>
 </body>
-
 </html>

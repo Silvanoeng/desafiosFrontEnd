@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 50px;
+    font-family: sans-serif;
+    background-image: url("../img/J25.jpg");
+  }
+  
+  #form {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    max-width: 420px;
+    margin: 100px auto;
+    z-index: 2;
+  }
+  
+  #form img {
+    position: absolute;
+    margin: -5px auto;
+    z-index: -1;
+  }
+  
+  #form h1 {
+    color: black;
+    font-family: Arial, cursive;
+    /* transition: all 0.5s ease-in-out; */
+    text-align: center;
+    line-height: 1.5;
+  }
+  div.nome {
+    margin: 20px 0 0 0;
+  }
+  #form label {
+    color: black;
+    font-size: 18px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+    color: grey;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  ::-webkit-input-placeholder{
+    color: gray;
+  }
+  div.maioridade {
+    margin: 0 0 20px 0;
+  }
+  /* .caixa_dados {
+    transition: all 0.5s ease-in-out;
+  }
+   */
+  button {
+    justify-content: center;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    color: white;
+    background-color: red;
+    /* transition: all 0.5s ease-in-out; */
+    font-size: 15px;
+    font-family: "Arial", cursive;
+  }
+  
