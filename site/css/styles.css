@@ -78,7 +78,7 @@ a.menu-botao:hover {
 }
 
 #banner2 {
-  background-image: url(../img/j23.jpg);
+  background-image: url(../img/banner\ 2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a.menu-botao:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
-  justify-content: space-around;
+  justify-content: ;
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url("../img/fundo\ imagem\ site.jpg");
@@ -106,23 +106,16 @@ a.menu-botao:hover {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border: 5px solid #f0f2f2;
+  border: 5px solid white;
   transition: all 0.3s ease-in-out;
+  border-radius: 50px;
   z-index: 2;
 }
 
 .capa img:hover {
   transform: scale(1.05);
 }
-/* #contato{
-  display: flex;
-  justify-content: space-between;
-  color: white;
 
-  text-align: center;
-  background-color: blue;
-} */
-}
 footer {
   display: flex;
   justify-content: space-between;
